@@ -2,7 +2,7 @@
 
 > A glowing 3D cube that spins, glows, and looks absolutely sick in your browser
 
-Drag. Click. Spin. Admire the neon glow. No solving required. 😎
+Drag. Click. Spin. Admire the neon glow. No solving required. 
 
 ##  Quick Play
 
@@ -24,7 +24,7 @@ https://zaac360.github.io/Neon-Rubik-s-Cube/
 ##  What's Inside
 
 ```
-Made with: HTML + CSS +  JS + Three.js ✨
+Made with: HTML + CSS +  JS + Three.js 
 No Node.js. No npm. Just pure browser vibes.
 ```
 
