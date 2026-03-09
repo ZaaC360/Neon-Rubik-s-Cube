@@ -10,7 +10,6 @@ Drag. Click. Spin. Admire the neon glow. No solving required.
 https://zaac360.github.io/Neon-Rubik-s-Cube/
 ```
 
-
 ##  How to Break It
 
 **Keyboard Magic:**
