@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Classic Rubik's Cube</title>
+<link rel="icon" type="image/x-icon" href="imgs/fav.jpg" />
+<link rel="stylesheet" href="style.css">
+
+<script type="importmap">
+{
+    "imports": {
+        "three": "https://unpkg.com/three@0.128.0/build/three.module.js",
+        "three/examples/jsm/": "https://unpkg.com/three@0.128.0/examples/jsm/"
+    }
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="instructions">
+    Rubik's Cube  
+</div>
+
+<div id="ui-container">
+    <div class="controls-panel">
+        <div style="font-size: small; color: #999999;">press shift + key for reverse <br> rotation</div>
+        <div class="controls-row">
+            <button onclick="window.rotateLayer('y', 1, -1)">Up <kbd>W</kbd></button>
+            <button onclick="window.rotateLayer('y', -1, 1)">Down <kbd>S</kbd></button>
+        </div>
+
+        <div class="controls-row">
+            <button onclick="window.rotateLayer('x', -1, -1)">Left <kbd>A</kbd></button>
+            <button onclick="window.rotateLayer('x', 1, 1)">Right <kbd>D</kbd></button>
+        </div>
+
+        <div class="controls-row">
+            <button onclick="window.rotateLayer('z', 1, -1)">Front <kbd>F</kbd></button>
+            <button onclick="window.rotateLayer('z', -1, 1)">Back <kbd>B</kbd></button>
+        </div>
+        <div style="font-size: small; color: #999999;">drag to rotate </div>
+
+    </div>
+</div>
+<div class="cursor"></div>
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
